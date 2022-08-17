@@ -1,0 +1,61 @@
+
+body
+{
+    font-family: "segoe ui light";
+}
+
+
+.item-caption
+{
+    bottom: 10%;
+    width: 80%;
+    left: 10%;
+}
+
+.blackBox
+{
+    background-color: rgba(0,0,0,0.6);
+
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+
+.designBox
+{
+    width: 50%;
+    height: 70%;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: 100% 100%;
+
+    position: relative;
+}
+
+#close
+{
+    position: absolute;
+
+    top:5%;
+    right: 5%;
+}
+
+.designBox i
+{
+    cursor: pointer;
+}
+
+.show
+{
+    display: flex;
+}
+
+.hide
+{
+    display: none;
+}
+
+
+
